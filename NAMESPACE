@@ -1,0 +1,6 @@
+export(gmal)
+export(simulate_gmal)
+S3method(print,gmal)
+S3method(coef,gmal)
+S3method(predict,gmal)
+importFrom(stats,coef,predict)

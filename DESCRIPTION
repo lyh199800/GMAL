@@ -1,0 +1,17 @@
+Package: GMAL
+Type: Package
+Title: Generalized Median Adaptive Lasso for Causal Inference
+Version: 0.1.0
+Authors@R: person("Yahang", "Liu", role = c("aut", "cre"),
+    email = "yhliu22@m.fudan.edu.cn")
+Description: Selects covariates using median-regression adaptive penalty
+    weights, tunes selection using covariate balance, and estimates an
+    inverse-probability-weighted marginal treatment effect. Supports binary
+    and continuous treatments using the algorithm described by Liu et al.
+    (2024) <doi:10.1093/bib/bbae059>. This is a newly packaged research
+    implementation, not a bit-for-bit reproduction of all published analyses.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.1.0)
+Imports: lqa, quantreg, survey, stats
+Suggests: CBPS

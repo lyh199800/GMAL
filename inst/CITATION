@@ -1,0 +1,7 @@
+bibentry(bibtype = "Article",
+  title = "High-dimensional generalized median adaptive lasso with application to omics data",
+  author = c(person("Yahang", "Liu"), person("Qian", "Gao"),
+    person("Kecheng", "Wei"), person("Chen", "Huang"), person("Ce", "Wang"),
+    person("Yongfu", "Yu"), person("Guoyou", "Qin"), person("Tong", "Wang")),
+  journal = "Briefings in Bioinformatics", year = "2024", volume = "25",
+  number = "2", pages = "bbae059", doi = "10.1093/bib/bbae059")
